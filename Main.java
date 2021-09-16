@@ -100,34 +100,6 @@ class Solution3 {
             max_len = Math.max(max_len,n);
         }
         return max_len;
-
-
-        //3 msc praktyk
-        //15.10.21 zaczynaja się
-        //zadania ktore bym dostawal są istotne ale nie priorytetowe
-        //zaczyna się od pisania testów
-
-//        int n = 0;
-//        if(A.length == 1)
-//            return 1;
-//        for(int i = 0; i < A.length - 2; i++)
-//        {
-//            if(A[i] > A[i+1] && A[i+1] < A[i+2]) n++;
-//            else if (A[i] < A[i+1] && A[i] > A[i+2]) n++;
-////            if(A[0] > A[1]) {
-////                if (i % 2 == 0) {
-////                    if (A[i] < A[i + 1]) n++;
-////                }
-////                else if (A[i] > A[i + 1]) n++;
-////            }
-////            else {
-////                if (i % 2 == 0) {
-////                    if (A[i] > A[i + 1]) n++;
-////                }
-////                else if (A[i] < A[i + 1]) n++;
-////            }
-//        }
-//        return n;
     }
 }
 
